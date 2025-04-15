@@ -30,6 +30,8 @@
             <li><a href="#solutions">Mbinu</a></li>
             <li><a href="#resources">Rasilimali</a></li>
             <li><a href="#contact">Mawasiliano</a></li>
+            <li styles="color: green;"><a href="login" class="auth-link">Ingia</a></li>
+            <li><a href="register" class="auth-link" styles="color: green;">jisajili</a></li>
         </ul>
     </nav>
 
