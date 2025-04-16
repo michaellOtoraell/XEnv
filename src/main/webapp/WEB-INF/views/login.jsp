@@ -54,7 +54,7 @@
                         <a href="#" class="auth-link">Umesahau nenosiri?</a>
                     </div>
 
-                    <button type="submit" class="auth-btn">Ingia</button>
+                    <button type="submit" class="auth-btn" styles="color: gold;">Ingia</button>
 
                     <div class="divider">au</div>
 

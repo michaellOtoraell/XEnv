@@ -145,14 +145,16 @@
 
         <div class="stats-grid">
           <!-- Stat 1 - Animated Circle -->
-          <div class="stat-card" data-percent="85">
-            <h4>Upungufu wa Taka</h4>
-            <p>Kupitia mbinu zetu za upyaji na utunzaji</p>
+          <div>
+            <h4>Wito kwa Mamlaka</h4>
+            <p>Tunatoa wito kwa mamlaka za kiserikali kutoa msaada wa dhati kwa mashirika yasiyo ya kiserikali (NGOs) na vijana wanaojitolea katika juhudi za kulinda na kuboresha mazingira. Vijana hawa pamoja na taasisi hizi mara nyingi hujihusisha na shughuli muhimu kama ukusanyaji na uchakataji wa taka (recycling), usafi wa mazingira, na kampeni za uhamasishaji kwa jamii kuhusu umuhimu wa kuhifadhi mazingira. Serikali inapaswa kuwapatia vifaa, mafunzo, na ruzuku ili kuwawezesha kutekeleza miradi yao kwa ufanisi zaidi. Pia, ni muhimu kuweka sera zitakazorahisisha ushirikiano kati ya sekta ya umma na binafsi katika masuala ya mazingira.</p>
           </div>
 
           <!-- Stat 2 - Floating Cube -->
           <div class="stat-card cube-stat">
             <div class="cube-container">
+            <br>
+            <br>
               <div class="cube">
                 <div class="face front">1200+</div>
                 <div class="face back">Miradi</div>
@@ -168,8 +170,69 @@
 
           <!-- Stat 3 - Particle Wave -->
           <div>
-            <h4>Familia Zilizowezeshwa</h4>
-            <p>Kupitia mafunzo ya uhifadhi wa mazingira</p>
+            <h4>Ushiriki katika ngazi ya Familia </h4>
+            <p>Katika ngazi ya familia, jamii inaweza kuchukua jukumu kubwa katika kuhifadhi mazingira kwa kuanzisha tabia endelevu na kukuza uelewa wa mazingira nyumbani. Familia zinaweza kupunguza taka kwa kufuata kanuni za 3Rs (reduce, reuse, and recycle) punguza, tumia tena, na tumia kwa njia mbadala—na kuepuka matumizi ya plastiki na vitu visivyooza. Kuhamasisha uhifadhi wa nishati kupitia vitendo rahisi kama kuzima taa na vifaa vya umeme visipotumika, kutumia vifaa vinavyotumia nishati kwa ufanisi, na kukumbatia vyanzo vya nishati jadidifu kama vile paneli za jua kunaweza kuleta athari kubwa. Uhifadhi wa maji unaweza kufanikishwa kwa kutengeneza mivujo, kutumia vifaa vinavyopunguza matumizi ya maji, na kuvuna maji ya mvua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Newsletter Section -->
+    <section class="contact-newsletter">
+      <div class="container">
+        <h2 class="section-title">Tuwasiliane</h2>
+        <p class="section-subtitle">Jiunge na mradi wetu kwa kujiandikisha kwa habari za mazingira</p>
+
+        <div class="contact-grid">
+          <!-- Left Column - Map -->
+          <div class="map-container">
+            <div class="map-wrapper">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.42773539225!2d39.2698444!3d-6.7928711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b0c28a38a91%3A0xe6b7a5efd1a82a1e!2sDar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1620000000000!5m2!1sen!2stz"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+              </iframe>
+            </div>
+            <div class="map-overlay">
+              <div class="overlay-content">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Ofisi Zetu</h3>
+                <p>Dar es Salaam, Tanzania</p>
+                <p>Near Posta Mpya</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column - Newsletter -->
+          <div class="newsletter-container">
+            <div class="newsletter-card">
+              <h3>Jiandikishe Kwa Habari</h3>
+              <p>Pata taarifa za mazingira na miradi yetu moja kwa moja kwenye barua pepe yako</p>
+
+              <form class="newsletter-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Jina lako" required>
+                  <i class="fas fa-user"></i>
+                </div>
+
+                <div class="form-group">
+                  <input type="email" placeholder="Barua pepe yako" required>
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Tuambie chochote" required>
+                  <i class="fas fa-text"></i>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  Jiandikisha Sasa
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -177,7 +240,7 @@
 
     <!-- Floating Scroll Button -->
     <button id="scrollBtn" class="scroll-btn" title="Go to top">
-        <i class="fas fa-arrow-up">UP/DOWN</i>
+        <i class="fas fa-arrow-up"></i>
     </button>
 
     <!-- Footer Section -->
